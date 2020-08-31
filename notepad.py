@@ -3,7 +3,6 @@ from tkinter import *
 from tkinter.filedialog import asksaveasfile
 
 def save_to_file(text):
-    #Saves files to main folder
     with open("file.txt", "w") as file:
         file = asksaveasfile()
         file.write(text)
